@@ -6,13 +6,19 @@
 }
 
 
-nav {
-    display: flex;
+#nave {
+    display: inline-block;
+    list-style-type: none;
     background-color: white;
     padding-top: 9px;
     padding-bottom: 11px;
-    align-items: center;
     /*min-width: 950px;*/
+}
+#nave li{
+    float: left;
+}
+#nave a{
+    display: block;text-decoration: none;
 }
 .a03:hover{
     text-decoration: underline 2px;
@@ -26,25 +32,17 @@ nav {
     margin: 5px 2% 2px 5.8%;
 }
 .nav-links {
-    display: flex;
-    justify-content:space-between;
-    width:41.5%;
-    align-items: center;
-    margin-left: 0.7%;
+    display: inline;
+    border: 2px solid black;
 }
 .nav--links {
-    display: flex;
-    justify-content:space-around;
-    align-items: center;
-    width: 24.5%;
-    margin-left: 10.5%;
+    display: inline;
 }
 .nav-links li,.nav--links li{
-    list-style: none;
+    list-style: none;float: left;
 }
-.nav-links a ,.nav--links a{
+.nav-links a ,.nav--links a,#prb{
     color: black;
-    text-decoration: none;
     font-size: 13px;
     font-weight: 380;
 }
